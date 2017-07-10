@@ -1,0 +1,434 @@
+body {
+background-color:#fafafa;
+margin:0px;
+padding:0px;
+font-family: "Segoe UI", "Helvetica Neue", "HelveticaNeue", "Helvetica", "Arial", "sans-serif";
+font-size:larger;
+font-weight:light;
+}
+
+@viewport {
+    width: device-width;
+	zoom:1;
+  }
+
+p{
+margin:0px;
+padding:0 0 5px 0;
+color:#000000;
+line-height:17px;
+text-align:justify;
+}
+p.tab{
+padding:10px 0 10px 0;
+font-size:large;
+color:#010101;
+}
+p.paragraph{
+padding:10px 0 10px 0;
+font-size:large;
+color:#010101;
+}
+p.tablet{
+padding:10px 5px 10px 0;
+font-size:large;
+color:#080808;
+}
+p.centered{
+    text-align:center;
+	display:block;
+}
+p.indented{
+		padding:10px 0 10px 40px;
+		font-size:large;
+		color:#555555;
+}
+p.quote{
+		padding:10px 50px 10px 50px;
+		font-size:large;
+		color:#222222;
+}
+p.tiny{
+padding:5px 0 5px 0;
+font-size:medium;
+color:#010101;
+}
+
+
+/*************image floats************/
+img.float-left { 
+    float: left; 
+    margin: 3px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);		
+}
+img.float-right { 
+    float: right; 
+    margin: 3px 2px 2px 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+}
+img.limg { 
+    float: left; 
+    margin: 4px;
+	width:200px;
+	height:200px;
+	border:0;
+}
+img.rimg { 
+    float: right; 
+    margin: 4px; 
+	width: 200px;
+	height: 200px;
+	border: 0;
+}
+
+h1{
+color:#000000;
+font-size:x-large;
+font-weight:lighter;
+margin:0px;
+padding: 5px 0 2px 0;
+}
+.cent
+{
+color:#000000;
+font-size:x-large;
+font-weight: light;
+text-align: center;
+}
+.sftwr
+{
+font-size:x-large;
+padding: 5px 0 5px 15px;
+}
+
+
+h2{
+color:#000000;
+font-weight:lighter;
+margin:0px;
+padding:10px 0 10px 0;
+font-size: large;
+}
+.small
+{
+font-size:medium
+}
+
+h3{
+color:#000000;
+font-size:medium;
+font-weight:lighter;
+margin:0px;
+padding:10px 0 10px 0;
+}
+
+/********fancy table*********/
+
+#ftab
+{
+font-size:medium;
+width: 80%;
+margin-left:10%; 
+ margin-right:10%;
+border-collapse: collapse;
+padding:5px 0 5px 0;
+}
+#ftab td, #ftab th 
+{
+font-size:medium;
+border:0px solid #0101A4;
+padding:3px 7px 2px 7px;
+color:#000000;
+background-color:#dfdfdf;
+}
+#ftab th 
+{
+font-size:medium;
+text-align:left;
+padding-top:1px;
+padding-bottom:1px;
+background-color:#efefef;
+color:#121212;
+}
+#ftab tr.alt td 
+{
+color:#121212;
+background-color:#eeeeee;
+}
+
+/*********lists!***************/
+ul{
+padding:5px 0 5px 40px;
+font-size:medium;
+color:#333333;
+}
+ol{
+padding:10px 0 10px 40px;
+font-size:medium;
+color:#333333;
+}
+
+/****************link styles**************/
+a:link {color:#0000BB;text-decoration:none;}      /* unvisited link */
+a:visited {color:#BB0000;text-decoration:none;}  /* visited link */
+a:hover {color:#0000BB;text-decoration:none;}  /* mouse over link */
+a:active {color:#BB0000;text-decoration:none;}  /* selected link */
+
+
+#main_container{
+width:95%;
+min-width:300px;
+max-width:900px;
+float:center;
+height:auto;
+margin:auto;
+/*background-color:#f1f1f1;*/
+}
+#header{
+width:100%;
+height:5%;
+margin:0 0 0 0;
+}
+#logo{
+width:30%;
+padding:10px 0 0 0;
+float:left;
+}
+/*----------------------menu-------------------------*/
+#menu{
+width:70%;
+height:auto;
+/*position:relative;*/
+float:right;
+padding:10px 0 0 0;
+font-size: large;
+font-weight:lighter;
+}
+#menu ul{
+list-style:none;padding:0px;margin:0px;display:block;
+}
+#menu ul li{
+font-weight: lighter;
+list-style:none;
+display:inline;
+float:right;
+width:auto;
+height:auto;
+padding:0px;
+}
+#menu ul li a{
+height:auto; 
+width: auto;
+float:left;
+text-decoration:none;
+padding:0 8px 0 8px; 
+margin:0px;
+color:#222222;
+text-align:center;
+font-size:large;
+}
+#menu ul li a:hover{
+height:auto; width: auto;color: #555555;
+text-shadow: .8px .5px #ee0000;
+-moz-text-shadow: .8px .5px #ee0000;
+-webkit-text-shadow: .8px .5px #ee0000;
+}
+#menu ul li a.current{
+height:auto;width: auto;float:left;padding:0 3px 0 3px;color: #bb5555;
+}
+
+
+#middle_box{
+width:100%;
+height:100px;
+clear:both;
+padding:0 0 0 0;
+background:url(images/banner-grid2.png) repeat center;
+}
+
+#middle_box2{
+width:100%;
+height:100px;
+clear:both;
+margin:auto;
+background:url(images/banner-grid.png) repeat center;
+}
+
+#middle_box3{
+width:100%;
+height:100px;
+clear:both;
+margin:auto;
+background:url(images/banner-grid2.png) repeat center;
+}
+/**** perseus! **/
+#middle_box4{
+width:100%;
+height:100px;
+clear:both;
+margin:auto;
+background:url(images/banner4.png) repeat center;
+}
+
+#middle_box-tch{
+width:100%;
+height:100px;
+clear:both;
+margin:auto;
+background:url(images/road.png) repeat center;
+}
+
+#tchban{
+width:100%;
+height:100px;
+clear:both;
+margin:auto;
+background:url(images/banner-grid2.png) repeat center;
+}
+
+#middle_box5{
+width:100%;
+height:100px;
+clear:both;
+margin:auto;
+background:url(images/banner-grid.png) repeat center;
+}
+
+#middle_box-ats{
+width:100%;
+height:100px;
+clear:both;
+margin:auto;
+background:url(images/atbanner.png) repeat center;
+}
+
+
+/*---------------------main_content------------------*/
+#main_content{
+width:100%;
+/*height: auto;
+margin: auto;*/
+padding:0 0 0 10px 0;
+}
+.left_content{
+/*background-color:#e5e5e5;*/
+width:100%;
+height:auto;
+float:right;
+padding:0 0 10px 0;
+}
+.right_content{
+/*background-color:#e5e5e5;*/
+width:100%;
+height:auto;
+float:left;
+padding:10px 0 0 0;
+}
+.center_content{
+/*background-color:#e5e5e5;*/
+width:100%;
+height:auto;
+float:center;
+padding:1 0px 0 0 0px;
+}
+.news_tab{
+width:100%;
+padding:5px 0 5px 5px;
+margin:0px;
+text-align:justify;
+line-height:14px;
+border-bottom:1px #b2bbbb solid;
+border-left:1px #b2bbbb solid;
+}
+.news_tableft{
+float:left;
+width:60%;
+padding:5px 0 5px 5px;
+margin:0px;
+text-align:justify;
+line-height:14px;
+border-bottom:1px #b2bbbb solid;
+border-left:1px #b2bbbb solid;
+}
+.news_details{
+padding:0 0 5px 0;
+text-align:right;
+font-size:medium;
+/*font-weight:bold;*/
+}
+span.date{
+color:#111111;
+}
+span.user{
+color:#000000;
+}
+.clear{
+clear:both;
+}
+
+/* vallenato accordian! */
+
+#accordion-container {
+	width:100%;
+	font-size: large;
+	background: #fcfcfc;
+	/*padding: 5px 5px 10px 5px;*/
+	border: 1px solid #cccccc; 
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+}
+
+.accordion-header {
+	color:#000000;
+	cursor:pointer;
+	font-size: large;
+	font-weight: lighter;
+	background: #dddddd;
+	margin: 5px 0 0 0;
+	padding: 5px 5px;
+	border: 1px solid #cccccc;
+	cursor: pointer;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+}
+
+.active-header {
+	color:#000000;
+	 background: #dedede;
+	/*-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;*/
+}
+
+.active-header:hover {
+	background: #e3e3e3;
+    color:#111111;
+}
+
+.inactive-header {
+	background: #f0f0f0;
+	color:#111111;
+}
+
+.inactive-header:hover {
+    background: #e0e0e0;
+	color:#111111;
+}
+
+.accordion-content {
+	width:100%;
+	font-size:large;
+	display: none;
+	padding: 5px;
+	background: #fcfcfc;
+	border: 0px solid #cccccc;
+	border-top: 1px;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+}
+
+
+
