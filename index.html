@@ -83,14 +83,17 @@
 						<b> Speaker </b>: <a href="http://www.ee.imperial.ac.uk/wei.dai/">Wei Dai</a>, Imperial College London
 						<br>
 
-						<b> Title </b>: TBA
+						<b> Title </b>: Blind Estimation of Origin-Destination Flows in Networks
  
 
 						</p>
 						
 						<p class = "tab">
 
-						<b>Abstract</b>: TBA
+						<b>Abstract</b>: This work focuses on the inverse problem of estimating origin-destination (OD) flows from link flows. OD flow estimation is essential to many network analysis tasks, such as urban planning, as OD information specifies the travel demands in the network. Approaches in the literature for OD estimation typically require some prior information of the OD flows as well as the mapping from OD flows to link flows. In particular, a linear model is often used to map OD flows to link flows and the corresponding linear operator is commonly referred to as the traffic assignment. In practice, prior information of the traffic assignment can be inaccurate and incomplete. Furthermore, even with full information of the traffic assignment, the OD flow estimation problem is still ill-posed and therefore further prior information of OD flows is required.
+						</p>
+						<p class="tab">
+The main contribution of this work is estimating OD flows with no or little prior information. Inspired by the terminology blind deconvolution in signal processing community, we refer to the OD estimation without knowledge of traffic assignment as blind estimation. Different from the literature where linear systems are built on OD flows, a new linear model is introduced of which the inquired flows are specified with only their origins but not their destinations. The new model preserves the OD information and at the same time reduces the dimension of the inquired flows in orders of magnitude. Due to this dimension reduction, the OD flow estimation problem becomes well-posed when the corresponding traffic assignment information is available. More importantly it is possible to estimate the OD flows and the traffic assignment simultaneously with no prior information of them. Detailed discussions are provided regarding the uniqueness of solutions for the simultaneous estimation. Simulations are presented for the demonstration purpose.
 				
 						</p>   
 				
@@ -109,14 +112,17 @@
 						<b> Speaker </b>: <a href="https://www.psesh.com">Pranay Sheshadri</a>, University of Cambridge
 						<br>
 
-						<b> Title </b>: TBA
+						<b> Title </b>: On Dimension Reduction Investigations in Turbomachinery
  
 
 						</p>
 						
 						<p class = "tab">
 
-						<b>Abstract</b>: TBA
+						<b>Abstract</b>: Blades in modern jet engines are parameterized by 20-300 design variables. It is impossible to visualize, and more importantly, effectively explore such vast design spaces. Yet such an exploration may be required not solely for optimization and uncertainty quantification endeavors, but more importantly, for understanding the physics that underpins key designs characteristics. For instance, when carrying out an optimization, the designs that are often associated with high efficiency are likely to be different from those associated with high flow capacity and high pressure ratio. Likewise, designs that are insensitive to variations in operational boundary conditions are likely to be different from those that are sensitive under the very same conditions. So what is the physical rationale for different design characteristics and how do we identify them?
+			   			</p>
+			   			<p class="tab">
+Our goal is to be able to identify key linear combinations of designs that influence certain outputs, especially when the total number of design variables is large. These salient concerns motivate an output-based—i.e., efficiency, flow capacity or pressure ratio—dimension reduction strategy. In this talk, a new algorithm for subspace-based dimension reduction is introduced. It combines manifold optimization with classical Gaussian process regression. The fundamental idea we exploit is that for many physics-driven problems, outputs can be expressed as a non-linear function of a few linear combinations of all the variables. There are parallels between this idea (known in the applied mathematics community under the moniker of `ridge functions'), neural networks, active subspaces and classical sufficient dimension reduction methods. We test our algorithm on a range of different data sets where the number of dimensions vary from 2 to 200. Our results demonstrate that if the problem does admit a ridge structure, our technique provides near optimal recovery. Finally, we describe how the computed dimension reducing subspace can be used for optimization, uncertainty quantification and more importantly for gaining physical insight into turbomachinery fluid mechanics. 
 				
 						</p>
 			   
