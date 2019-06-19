@@ -127,7 +127,24 @@
 						<p class = "tab">
 
 						<b>Abstract</b>:
-						In this talk we will discuss state-of-the-art results on two important problems, clustering and learning joint alignments (e.g., of images and shapes) using noisy queries. For the clustering problem, we consider the following model for two clusters: we are allowed to query any pair of nodes whether they belong to the same cluster or not, but the answer to the query is corrupted with some probability $0<q<\frac{1}{2}$. Let $\delta=1-2q$ be the bias. We provide an algorithm that recovers all signs correctly with high probability in the presence of noise  with $O(\frac{n\log n}{\delta^2}+\frac{\log^2 n}{\delta^6})$ queries. This is the best known result for this problem  for all but tiny $\delta$. We also provide another algorithm that performs $O(\frac{n\log n}{\delta^4})$ queries, and  uses breadth first search as its main algorithmic primitive.  Then we will present our results for the problem of learning joint alignments.  The goal is to recover $n$ discrete variables $x_i \in \{0, \ldots, k-1\}$ (up to some global offset) given noisy observations of a set of their pairwise differences {x_i - x_j mod k}; specifically, with probability $1/k+\delta$ for some $\delta > 0$ one obtains the correct answer, and with the remaining probability one obtains a uniformly random incorrect answer.  We provide an efficient algorithm that learns the joint alignment with high probability. We will conclude with some open problems. 
+						In this talk we will discuss state-of-the-art results on two important problems, 
+						clustering and learning joint alignments (e.g., of images and shapes) using noisy
+						queries. For the clustering problem, we consider the following model for two clusters: 
+						we are allowed to query any pair of nodes whether they belong to the same cluster or 
+						not, but the answer to the query is corrupted with some probability 0 < q < 1/2. 
+						Let \delta=1-2q be the bias. We provide an algorithm that recovers all signs correctly 
+						with high probability in the presence of noise  with $O(n log n / \delta^2 +
+						\log^2 n/\delta^6) queries. This is the best known result for this problem  for 
+						all but tiny \delta. We also provide another algorithm that performs 
+						O(n\log n/\delta^4) queries, and  uses breadth first search as its main algorithmic 
+						primitive.  Then we will present our results for the problem of learning joint 
+						alignments.  The goal is to recover n discrete variables x_i in {0, ..., k-1} 
+						(up to some global offset) given noisy observations of a set of their pairwise 
+						differences {x_i - x_j mod k}; specifically, with probability 1/k+\delta for some 
+						\delta > 0 one obtains the correct answer, and with the remaining probability one 
+						obtains a uniformly random incorrect answer.  We provide an efficient algorithm that 
+						learns the joint alignment with high probability. We will conclude with some open 
+						problems. 
 
 
 		       				</p>
