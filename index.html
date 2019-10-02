@@ -58,7 +58,64 @@
 <h1 class="cent">Upcoming Talks</h1>
 		   				  
 		 	 
-		     	  <h2  class="accordion-header" >23 Aug 2019: <b>Charalampos Tsourakakis</b>, Boston University</h2>
+		     	  <h2  class="accordion-header" >09 Oct 2019: <b>Vardan Papyan</b>, Stanford University</h2>
+               <div class="accordion-content">
+		       			<img src ="https://vardanp.cswp.cs.technion.ac.il/wp-content/uploads/sites/62/2015/12/image001.png" class="float-right" alt="Vardan" height = "155">
+						
+						<p class="tab">
+						<b> Speaker </b>: <a href = "https://statistics.stanford.edu/people/vardan-papyan">Vardan Papyan</a>, 
+						<br>
+
+						<b> Title </b>: Traces of Class/Cross-Class Structure Pervade Deep Learning Spectra
+ 						</p>
+						
+						<p class = "tab">
+
+						<b>Abstract</b>: Numerous researchers recently applied empirical spectral analysis to 
+						the study of modern deep learning classifiers. We identify and discuss an important 
+						formal class/cross-class structure and show how it lies at the origin of the many 
+						visually striking features observed in deepnet spectra, some of which were reported 
+						in recent articles and others unveiled here for the first time. These include spectral 
+						outliers and small but distinct bumps often seen beyond the edge of a "main bulk". The 
+						structure we identify organizes the coordinates of deepnet features and back-propagated 
+						errors, indexing them as an NxC or NxCxC array. Such arrays can be indexed by a 
+						two-tuple (i,c) or a three-tuple (i,c,c'), where i runs across the indices of the 
+						train set; c runs across the class indices and c' runs across the cross-class indices. 
+						This indexing naturally induces C class means, each obtained by averaging over the 
+						indices i and c' for a fixed class c. The same indexing also naturally defines C^2 
+						cross-class means, each obtained by averaging over the index i for a fixed class c 
+						and a cross-class c'. We develop a formal process of spectral attribution, which is 
+						used to show the outliers are attributable to the C class means; the small bump next 
+						to the "main bulk" is attributable to between-cross-class covariance; and the "main 
+						bulk" is attributable to within-cross-class covariance. Formal theoretical results 
+						validate our attribution methodology.
+						</p>
+		       
+		       				<p class= "tab">
+							We show how the effects of the class/cross-class structure permeate not only 
+						the spectra of deepnet features and backpropagated errors, but also the gradients, 
+						Fisher Information matrix and Hessian, whether these are considered in the context 
+						of an individual layer or the concatenation of them all. The Kronecker or Khatri-Rao 
+						product of the class means in the features and the class/cross-class means in the 
+						backpropagated errors approximates the class/cross-class means in the gradients. 
+						These means of gradients then create C and C^2 outliers in the spectrum of the 
+						Fisher Information matrix, which is the second moment of these gradients. The 
+						outliers in the Fisher Information matrix spectrum then create outliers in the 
+						Hessian spectrum. We explain the significance of this insight by proposing a 
+						correction to KFAC, a well known second-order optimization algorithm for training 
+						deepnets.
+		       				</p>
+		       
+						<p class= "tab">
+							<b>Room and Time</b>: Augusta, 14h - 15h
+		       				</p>
+		    </div>
+		     
+							       
+							       
+<h1 class="cent">Recent Talks</h1>
+		    
+	<h2  class="accordion-header" >0 Aug 2019: <b>Charalampos Tsourakakis</b>, Boston University</h2>
                <div class="accordion-content">
 		       			<img src ="https://www.bu.edu/cs/files/2016/08/Babis.jpg" class="float-right" alt="Charalampos" height = "155">
 						
@@ -101,9 +158,6 @@
 		       				</p>
 		    </div>
 		     
-							       
-							       
-<h1 class="cent">Recent Talks</h1>
 		    
 	 <h2  class="accordion-header" >27 Jun 2019: <b>Jon Bloom</b>, Broad Institute</h2>
                <div class="accordion-content">
